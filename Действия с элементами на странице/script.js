@@ -41,9 +41,8 @@ div.style.backgroundColor = 'yellow';
 // wrapper.appendChild(div);
 
 // div.innerHTML = '<h1>Hello World!</h1>';
+
 div.textContent = 'Hello World!';
-
-
 
 document.body.insertBefore(div, circle[0]);
 document.body.removeChild(circle[1]);
